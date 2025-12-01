@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Contact - Contact Backgrounds
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>How to Contact Me</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <section>
+       <h2>Lojain Idris Contact</h2>
+       <p>Different methods to contact me: </p>
+       
+       <ul>
+           <li>Email: <a href="mailto:idrislojain@gmail.com">idrislojain@gmail.com</a></li>
+           <li>Phone Number: +1 (202) 302 0882</li>
+       </ul>
+       
+       <form action="mailto:idrislojain@gmail.com" method="post" encrypt="text/plain">
+           Name:<br>
+           <input type="text" name="name"><br>
+           Message:<br>
+           <textarea name="message" rows="5" cols="30"></textarea><br><br>
+           <input type="submit" value="Send">
+       </form>
+    </section>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  chat-icon="https:&#x2F;&#x2F;tse2.mm.bing.net&#x2F;th&#x2F;id&#x2F;OIP.J8tIgYyjGym_OLrapI_RPgHaNK?pid=Api&ampP=0&amph=180"
+  intent="WELCOME"
+  chat-title="Lojain-Resume"
+  agent-id="64997944-85dc-40f3-873a-bb7a9e01c0d5"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
