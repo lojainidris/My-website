@@ -1,0 +1,14 @@
+# my prortfolio Website
+This website include my Resume, abour me, Projects, Skills, Education background, and contact form. 
+#This Website include chatbot Feature Using DialogFlow
+-The Chatbot is embedded on the site using the iframe/script snippet provided by DialogFlow
+-This Chatbot Answers Facts about my Skills and edcuation, experience, and projects.
+-this Chatbot was created an agent in Dialogflow and designed intents for expected questions
+-inserted the snippet in the in body section of index.html, about.html, resume.html. projects.html, contact.html
+
+#Projects
+https://github.com/lojainidris/Everything-Data
+https://github.com/lojainidris/Unemployment-Data-Analytics
+https://github.com/lojainidris/Keysight-Technologies
+https://github.com/lojainidris/Database-Creation
+https://github.com/lojainidris/Network-Security-Framework-Implementation
